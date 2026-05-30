@@ -85,7 +85,9 @@ export const transactionData = [
     amount: 300, 
     isPositive: false, 
     status: 'Credited' 
-  }
+  
+  },
+  
 ];
 
 export const referralData = {
