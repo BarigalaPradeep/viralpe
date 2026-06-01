@@ -24,6 +24,8 @@ import PrivacyPolicy from "../components/Dashboard/PrivacyPolicy"
 import Termsandconditions from "../components/Dashboard/TermsandConditions"
 import RefundPolicy from "../components/Dashboard/Refundpolicy";
 import Dashboard from "../../src/pages/Dashboard";
+import Profile from "../../src/components/Dashboard/MyProfile";
+import Faq from "../../src/components/Dashboard/Howcanwehelp";
 export default function AppRoutes() {
   return (
     <Routes>
@@ -52,6 +54,9 @@ export default function AppRoutes() {
       <Route path="/privacy-policy" element={< PrivacyPolicy />} />
       <Route path="/terms-conditions" element={< Termsandconditions />} />
       <Route path="/refund-policy" element={< RefundPolicy />} />
+      <Route path="/profile" element={<Profile />} />
+      <Route path="/faqs" element={<Faq />} />
+      
 
 
     </Routes>

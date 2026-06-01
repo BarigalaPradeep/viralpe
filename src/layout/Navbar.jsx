@@ -78,7 +78,7 @@ function UserNavbar({ user }) {
           {/* Left Side: Logo & Dynamic Greeting */}
           <div className="flex items-center justify-between md:justify-start gap-4 w-full md:w-auto">
             <div className="flex items-center gap-3">
-              <div className="cursor-pointer shrink-0" onClick={() => navigate("/dashboard")}>
+              <div className="cursor-pointer shrink-0" onClick={() => navigate("/profile")}>
                 <img src={logo} alt="logo" className="w-[60px] h-[60px] md:w-[78px] md:h-[78px] object-contain" />
               </div>
 
@@ -166,7 +166,7 @@ function UserNavbar({ user }) {
 
                 <div className="p-2 flex flex-col gap-1">
                   <button
-                    onClick={() => { setIsProfileOpen(false); navigate("/dashboard"); }}
+                    onClick={() => { setIsProfileOpen(false); navigate("/profile"); }}
                     className="w-full text-left px-3 py-2.5 text-gray-700 hover:bg-[#FFEDEE] hover:text-[#901c27] rounded-lg font-medium transition-all duration-200 cursor-pointer"
                   >
                     <div className="flex flex-row items-center gap-2">
